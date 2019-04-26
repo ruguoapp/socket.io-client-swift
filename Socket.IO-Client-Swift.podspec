@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   }
 
   s.swift_version = "5"
+  s.static_framework = true
   s.pod_target_xcconfig = {
       'SWIFT_VERSION' => '5.0'
   }
