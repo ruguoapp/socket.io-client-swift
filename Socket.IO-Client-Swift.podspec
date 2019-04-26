@@ -21,6 +21,7 @@ Pod::Spec.new do |s|
     :tag => 'v13.1.0',
     :submodules => true
   }
+  s.static_framework = true
   s.pod_target_xcconfig = {
       'SWIFT_VERSION' => '4.0'
   }
